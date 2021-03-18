@@ -150,6 +150,7 @@ body {
             background-position: center;
             cursor: grab;
             scroll-behavior: smooth;
+            box-shadow: 0px 10px 48px $strong-cyan;
         }
         &:focus {
             outline: none;
