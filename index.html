@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="style.css"/>  
+  <title>Frontend Mentor | Interactive pricing component</title>
+</head>
+
+<body>
+  <section class = 'title'>
+    <h1> Simple, traffic-based pricing </h1>
+    <p> Sign-up for our 30-day trial. No credit card required. </p>
+  </section>
+  
+  <section class = 'card-container'>
+    <div class="card">
+      <div class = 'card-top'>
+          <p> <span id = 'pageviews'> 100K </span> Pageviews </p>
+          <p> <span id = 'cost'> $16 </span> <span id = 'term'>/month</span> </p>
+          <div class = 'slider-container'>
+            <input id = 'slider' class = 'slider' type = 'range' min='0' max='100' step='1' value = '50'> 
+          </div>
+                 
+      </div>
+      
+      <div class = 'card-middle'>
+        <span>  Monthly Billing </span>
+        <span> <input id = 'toggle' type="checkbox"></span>
+        <span>  Yearly Billing </span>
+        
+         
+      </div>
+      
+      <div class = 'card-lower'>
+        <ul class = 'content-list'>
+          <li> Unlimited websites </li>
+          <li> 100% data ownership </li>
+          <li> Email reports </li>
+        </ul>
+
+        <button class = 'trial-btn'> Start my trial </button>
+        
+      </div>
+    </div>
+
+  </section>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io/challenges/interactive-pricing-component-t0m8PIyY8" target="_blank"> Frontend Mentor</a>. 
+    Coded by <a href="https://www.github.com/edgarcgriffinjr"> Edgar Griffin</a>.
+  </footer>
+
+  <script src = './index.js'></script>
+</body>
+</html>
